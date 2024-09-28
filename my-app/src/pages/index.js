@@ -28,7 +28,7 @@ const Home = () => (
       </p>
       <p>
         To start, browse over to our shop where you will see the full range
-        available - we'll be adding more over time. If you have any questions,
+        available we&#39ll be adding more over time. If you have any questions,
         please do let us know - our contact details are at the bottom of this
         page.
       </p>
