@@ -5,15 +5,15 @@ import '../styles/globals.css';
 
 // import { StateContext } from "../../context/StateContext";
 
-import '@/styles/globals.css';
-
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     // <StateContext>
     <Layout>
       <Toaster />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Layout>
     // </StateContext>
   );
 }
+
+export default MyApp;
