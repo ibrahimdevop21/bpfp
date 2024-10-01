@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import PaymentIcons from '../PaymentIcons';
+import PaymentIcons from './PaymentIcons';
 //import MiniCart from "../MiniCart";
 
 //import { useStateContext } from "../../../context/StateContext";
@@ -23,7 +23,18 @@ const Footer = () => {
           <div>Contact: hello@macaronmagic.com</div>
           {/*<MiniCart />*/}
         </div>
+
+        <div className='icon-container'>
+          <PaymentIcons />
+          <div className='icons'>
+            <AiFillInstagram />
+            <AiOutlineTwitter />
+          </div>
+        </div>
       </div>
+      <p className='copyright'>2024 Macron Magic All rights reserved</p>
     </>
   );
 };
+
+export default Footer;
